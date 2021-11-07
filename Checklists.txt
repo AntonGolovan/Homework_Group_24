@@ -1,0 +1,7 @@
+The main elements of the checklist structure include:
+1.ID
+2.Check description
+3.Status
+4.Comment
+
+
