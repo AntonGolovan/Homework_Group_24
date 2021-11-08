@@ -26,7 +26,7 @@
  $ git push
 
  8. Создать файлы new2.json, new2.xml, new2.txt
- $ touch {new2.json, new2.xml, new.txt}
+ $ touch {new2.json, new2.xml, new2.txt}
 
  9. Добавить файлы под гит.
  $ git add .
@@ -71,7 +71,7 @@
  $ git push
 
  17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
- $ vim new2.json
+ $ vim new2.xml
  Нажать I
 
 <?xml version ="1.0" encoding="UTF-8" ?>
@@ -88,13 +88,16 @@
 
  18. Добавить и закоммитить “new2.xml” одной строчкой.
  $ git commit -am "update new2.xml"
+ 
  19. Отправить изменения на внешний репозиторий.
  $ git push
+ 
  20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий.
    Добавил файл HW_1_Terminal.txt в репозиторий в папку HW_1_Terminal на локальный репозиторий HomeWorks_Group_24
    git add .
    git commit -m "add homework-1"
    git push
+   
  21. В веб интерфейсе GitHub создать файл new3.txt.
 1. press the button [Add file]
 2. choose [Create new file] new3.txt
