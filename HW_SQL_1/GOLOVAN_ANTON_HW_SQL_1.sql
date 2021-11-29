@@ -56,7 +56,7 @@ select * from students where created_on = '2021-07-12 00:00:00' and password = '
  
 -- 15. Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть слово Andrey
  
-select * from students where created_on = '2021-07-12 00:00:00' and name like 'Andrey%';
+select * from students where created_on = '2021-07-12 00:00:00' and name like '%Andrey%';
  
  -- 16. Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть цифра 8
 
