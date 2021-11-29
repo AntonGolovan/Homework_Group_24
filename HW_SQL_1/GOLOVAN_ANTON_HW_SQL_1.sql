@@ -64,7 +64,7 @@ select * from students where created_on = '2021-07-12 00:00:00' and name like '%
 
  -- 17. Вывести пользователя у которых id равен 110 -- id начинается с 112
  
- select * from students where id = 112;
+select * from students where id = 112;
  
  -- 18. Вывести пользователя у которых id равен 153
  
