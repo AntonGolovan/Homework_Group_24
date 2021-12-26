@@ -107,7 +107,6 @@ where role_name like '%QA%'
  on r.id = re.role_id 
  where role_name like '%Automation QA%'
   
- 
 --12. Вывести имена и зарплаты Junior специалистов
  
  select employee_name, monthly_salary
@@ -135,7 +134,7 @@ where role_name like '%QA%'
  on e.id = es.employee_id
  join roles r 
  on r.id = re.role_id 
-  where role_name like '%Middle%'
+ where role_name like '%Middle%'
   
 --14. Вывести имена и зарплаты Senior специалистов
   
@@ -149,7 +148,7 @@ where role_name like '%QA%'
  on e.id = es.employee_id
  join roles r 
  on r.id = re.role_id 
-  where role_name like '%Senior%'
+ where role_name like '%Senior%'
   
 --15. Вывести зарплаты Java разработчиков
  
